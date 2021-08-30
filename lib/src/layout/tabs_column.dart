@@ -75,7 +75,6 @@ class _TabColumnState extends State<TabColumn> {
             setState(() => isDragging = false);
           },
           onHorizontalDragUpdate: (details) {
-
             final flexTop =
                 details.globalPosition.dy - keyTop.globalPaintBounds!.top;
             final flexBottom =
